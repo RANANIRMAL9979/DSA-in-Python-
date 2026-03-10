@@ -1,6 +1,6 @@
 x = int(input("Enter the number : "))
 convert = str(x)
-reverced = convert(x[::-1])
+reverced = convert[::-1]
 if reverced == convert :
   print ("Numbetr is palindrome")
 else :
